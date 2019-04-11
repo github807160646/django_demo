@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd0e216b-fa26-4ee6-ba1b-389e5c430451" name="Default Changelist" comment="">
+    <list default="true" id="dd0e216b-fa26-4ee6-ba1b-389e5c430451" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/myblog/blog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,7 +165,7 @@
         <entry file="file://$PROJECT_DIR$/myblog/blog/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+              <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -326,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554969799544</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Default Changelist">
+      <created>1554996950877</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554996950877</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -364,7 +371,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="blog" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/myblog/blog/views.py">
@@ -537,7 +545,7 @@
     <entry file="file://$PROJECT_DIR$/myblog/blog/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
         </state>
       </provider>
     </entry>
