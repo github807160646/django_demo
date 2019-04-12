@@ -1,0 +1,237 @@
+[11/Apr/2019 12:50:10] "GET /blog/index/ HTTP/1.1" 200 540
+[11/Apr/2019 12:50:20] "GET /blog/index/ HTTP/1.1" 200 540
+[11/Apr/2019 12:50:22] "GET /blog/article/12/ HTTP/1.1" 200 342
+[11/Apr/2019 12:50:33] "GET /blog/article/12/ HTTP/1.1" 200 342
+[11/Apr/2019 12:50:36] "GET /blog/index/ HTTP/1.1" 200 540
+[11/Apr/2019 12:50:37] "GET /blog/article/2/ HTTP/1.1" 200 409
+[11/Apr/2019 12:51:47] "GET /blog/article/2/ HTTP/1.1" 200 409
+[11/Apr/2019 12:51:49] "GET /blog/index/ HTTP/1.1" 200 540
+[11/Apr/2019 12:53:37] "GET /blog/index/ HTTP/1.1" 200 540
+[11/Apr/2019 12:53:39] "GET /blog/article/2/ HTTP/1.1" 200 409
+[11/Apr/2019 12:53:43] "GET /blog/article/3/ HTTP/1.1" 200 400
+[11/Apr/2019 12:53:50] "GET /blog/article/12/ HTTP/1.1" 200 342
+Not Found: /blog/admin
+[11/Apr/2019 12:54:14] "GET /blog/admin HTTP/1.1" 404 3326
+[11/Apr/2019 12:54:20] "GET /admin HTTP/1.1" 301 0
+[11/Apr/2019 12:54:20] "GET /admin/ HTTP/1.1" 302 0
+[11/Apr/2019 12:54:20] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[11/Apr/2019 12:54:20] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[11/Apr/2019 12:54:20] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[11/Apr/2019 12:54:20] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+[11/Apr/2019 12:54:20] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[11/Apr/2019 12:54:20] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[11/Apr/2019 12:54:20] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[11/Apr/2019 12:54:27] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[11/Apr/2019 12:54:27] "GET /admin/ HTTP/1.1" 200 5116
+[11/Apr/2019 12:54:27] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[11/Apr/2019 12:54:27] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[11/Apr/2019 12:54:28] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[11/Apr/2019 12:54:28] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[11/Apr/2019 12:54:28] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[11/Apr/2019 12:54:29] "GET /admin/blog/article/ HTTP/1.1" 200 4800
+[11/Apr/2019 12:54:29] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[11/Apr/2019 12:54:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[11/Apr/2019 12:54:29] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[11/Apr/2019 12:54:29] "GET /static/admin/js/core.js HTTP/1.1" 200 7135
+[11/Apr/2019 12:54:29] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[11/Apr/2019 12:54:29] "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+[11/Apr/2019 12:54:29] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+[11/Apr/2019 12:54:29] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[11/Apr/2019 12:54:30] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[11/Apr/2019 12:54:30] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[11/Apr/2019 12:54:30] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[11/Apr/2019 12:54:32] "GET /admin/blog/article/3/change/ HTTP/1.1" 200 4853
+[11/Apr/2019 12:54:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[11/Apr/2019 12:54:32] "GET /static/admin/css/forms.css HTTP/1.1" 200 8505
+[11/Apr/2019 12:54:32] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[11/Apr/2019 12:54:32] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[11/Apr/2019 12:54:32] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[11/Apr/2019 12:54:34] "GET /admin/blog/article/ HTTP/1.1" 200 4800
+[11/Apr/2019 12:54:35] "GET /admin/blog/article/2/change/ HTTP/1.1" 200 4862
+[11/Apr/2019 12:54:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[11/Apr/2019 12:54:37] "GET /admin/blog/article/ HTTP/1.1" 200 4800
+[11/Apr/2019 12:54:38] "GET /admin/blog/article/12/change/ HTTP/1.1" 200 4791
+[11/Apr/2019 12:54:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[11/Apr/2019 12:54:43] "GET /admin/blog/article/ HTTP/1.1" 200 4800
+[11/Apr/2019 13:00:25] "GET /blog/article/3/ HTTP/1.1" 200 400
+[11/Apr/2019 13:00:26] "GET /blog/edit/tocha/3/ HTTP/1.1" 200 704
+[11/Apr/2019 13:10:19] "GET /blog/edit/ HTTP/1.1" 200 552
+[11/Apr/2019 13:10:34] "POST /blog/edit/action/ HTTP/1.1" 200 644
+[11/Apr/2019 13:10:45] "GET /blog/article/14/ HTTP/1.1" 200 263
+[11/Apr/2019 13:10:47] "GET /blog/edit/tocha/14/ HTTP/1.1" 200 567
+[11/Apr/2019 13:10:52] "POST /blog/edit/change/14/ HTTP/1.1" 200 644
+[11/Apr/2019 13:10:56] "GET /blog/article/14/ HTTP/1.1" 200 270
+[11/Apr/2019 13:10:57] "GET /blog/index/ HTTP/1.1" 200 644
+[11/Apr/2019 13:10:59] "GET /blog/article/14/ HTTP/1.1" 200 270
+[11/Apr/2019 13:11:01] "GET /blog/index/ HTTP/1.1" 200 644
+[11/Apr/2019 13:11:02] "GET /blog/article/14/ HTTP/1.1" 200 270
+[11/Apr/2019 13:11:04] "GET /blog/edit/tocha/14/ HTTP/1.1" 200 574
+[11/Apr/2019 13:11:09] "POST /blog/edit/change/14/ HTTP/1.1" 200 653
+[11/Apr/2019 13:11:10] "GET /blog/article/14/ HTTP/1.1" 200 279
+[11/Apr/2019 13:11:12] "GET /blog/index/ HTTP/1.1" 200 653
+[11/Apr/2019 13:11:13] "GET /blog/article/2/ HTTP/1.1" 200 409
+[11/Apr/2019 13:11:14] "GET /blog/index/ HTTP/1.1" 200 653
+[11/Apr/2019 13:11:16] "GET /blog/article/3/ HTTP/1.1" 200 400
+[11/Apr/2019 13:11:17] "GET /blog/edit/tocha/3/ HTTP/1.1" 200 704
+[11/Apr/2019 13:11:20] "POST /blog/edit/change/3/ HTTP/1.1" 200 653
+[11/Apr/2019 13:11:23] "GET /blog/edit/ HTTP/1.1" 200 552
+[11/Apr/2019 13:11:30] "GET /blog/article/14/ HTTP/1.1" 200 279
+[11/Apr/2019 13:15:42] "GET /blog/edit/delete/14/ HTTP/1.1" 200 540
+[11/Apr/2019 14:50:38] "GET /blog/article/2/ HTTP/1.1" 200 409
+[11/Apr/2019 14:50:39] "GET /blog/index/ HTTP/1.1" 200 540
+[11/Apr/2019 14:51:34] "GET /blog/index/ HTTP/1.1" 200 540
+[11/Apr/2019 14:51:37] "GET /blog/article/2/ HTTP/1.1" 200 409
+[11/Apr/2019 14:51:41] "GET /blog/article/3/ HTTP/1.1" 200 400
+[11/Apr/2019 14:51:44] "GET /blog/article/12/ HTTP/1.1" 200 342
+[11/Apr/2019 15:01:36] "GET /blog/article/3/ HTTP/1.1" 200 400
+[11/Apr/2019 15:01:44] "GET /blog/index/ HTTP/1.1" 200 540
+[11/Apr/2019 15:01:45] "GET /blog/article/2/ HTTP/1.1" 200 409
+[11/Apr/2019 15:01:46] "GET /blog/index/ HTTP/1.1" 200 540
+[11/Apr/2019 15:01:47] "GET /blog/article/12/ HTTP/1.1" 200 342
+[11/Apr/2019 15:01:51] "GET /blog/index/ HTTP/1.1" 200 540
+[11/Apr/2019 15:04:32] "GET /blog/index/?nsukey=VXTtA3jZKIURu7lYqTRehOpCeP4hTWDdTwkETy9lDDl%2FIrz6v8UT6qROZQQSIGVkcbGkP5d5IrKHHQ%2B06aKqsPI5k4jYXJNYoOBvwpCJ7mBsyr7AEgx1rIONSf7v%2BQC0ucrnOs1a%2BHZYB98XcJFTHLLx4A5GE16B6eWCad1IDXlBLe6946El%2Fof9AbChSW6UwBtwNUtDvAWfSQvWvP%2FTjQ%3D%3D HTTP/1.1" 200 540
+[11/Apr/2019 15:04:35] "GET /blog/article/2/ HTTP/1.1" 200 409
+[11/Apr/2019 15:04:36] "GET /blog/article/2/?nsukey=2pmIF6FS5mWd6edyVCLP85NfmR1Z26kZHGWsJvjs0xZZ0rUQwyhLdUXI3fanZTlkCjrwM3N3uU%2FqSwFyI8ggsDpW2OcudPdI3qiweJLV%2BLXKMy6omHVfzbEo%2Fwb%2F%2BkOXLAsbbJ%2FspUMFjCvsR0rmsRGoBx5C0sWKwUNh65BdaPgrI2M%2BYGASd0fN66pW9dQYwr%2BbNWpx1Vj7Hf9g3r%2B0Mg%3D%3D HTTP/1.1" 200 409
+----------------------------------------
+Exception happened during processing of request from ('220.112.121.253', 50115)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/socketserver.py", line 636, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.6/socketserver.py", line 358, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.6/socketserver.py", line 692, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/lib/python3.6/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[11/Apr/2019 15:05:30] "GET /blog/index HTTP/1.1" 301 0
+[11/Apr/2019 15:05:32] "GET /blog/index/?nsukey=VXTtA3jZKIURu7lYqTRehOpCeP4hTWDdTwkETy9lDDl%2FIrz6v8UT6qROZQQSIGVkcbGkP5d5IrKHHQ%2B06aKqsPI5k4jYXJNYoOBvwpCJ7mBsyr7AEgx1rIONSf7v%2BQC0ucrnOs1a%2BHZYB98XcJFTHLLx4A5GE16B6eWCad1IDXlBLe6946El%2Fof9AbChSW6UwBtwNUtDvAWfSQvWvP%2FTjQ%3D%3D HTTP/1.1" 200 540
+[11/Apr/2019 15:05:35] "GET /blog/article/2 HTTP/1.1" 301 0
+[11/Apr/2019 15:05:36] "GET /blog/article/2/?nsukey=2pmIF6FS5mWd6edyVCLP85NfmR1Z26kZHGWsJvjs0xZZ0rUQwyhLdUXI3fanZTlkCjrwM3N3uU%2FqSwFyI8ggsDpW2OcudPdI3qiweJLV%2BLXKMy6omHVfzbEo%2Fwb%2F%2BkOXLAsbbJ%2FspUMFjCvsR0rmsRGoBx5C0sWKwUNh65BdaPgrI2M%2BYGASd0fN66pW9dQYwr%2BbNWpx1Vj7Hf9g3r%2B0Mg%3D%3D HTTP/1.1" 200 409
+[11/Apr/2019 15:39:00] "GET /blog/index/ HTTP/1.1" 200 626
+[11/Apr/2019 15:41:11] "GET /blog/index/ HTTP/1.1" 200 642
+[11/Apr/2019 15:42:03] "GET /blog/article/2/ HTTP/1.1" 200 409
+[11/Apr/2019 15:42:06] "GET /blog/edit/ HTTP/1.1" 200 552
+[11/Apr/2019 15:42:11] "GET /blog/article/12/ HTTP/1.1" 200 342
+[11/Apr/2019 15:42:17] "GET /blog/article/3/ HTTP/1.1" 200 400
+[11/Apr/2019 15:43:21] "GET /blog/index/?nsukey=whiCJUlKDHHxrAsSC3ExBv%2BhSy7pSoCREl2DNS6JwsGBw9zCfx99TA8Rzy6XgRIIJLDgHhDcBUviD1qvqxuzABgYdth7%2Fc%2Be3bfdPfKp0Hm2VTp1MUXRafh0KF%2BkILN8sgVvHP9HdTctnQWZLQG8hLr%2FY0Ez6Wr%2B8cDSk%2F3ARRH5cwXa%2BHWzrHlAsapTv%2F7bNZCQSDOaI6Q8KyyiiCxkSw%3D%3D HTTP/1.1" 200 642
+----------------------------------------
+Exception happened during processing of request from ('220.112.121.253', 50127)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/socketserver.py", line 636, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.6/socketserver.py", line 358, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.6/socketserver.py", line 692, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/lib/python3.6/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[11/Apr/2019 15:44:21] "GET /blog/index/?nsukey=whiCJUlKDHHxrAsSC3ExBv%2BhSy7pSoCREl2DNS6JwsGBw9zCfx99TA8Rzy6XgRIIJLDgHhDcBUviD1qvqxuzABgYdth7%2Fc%2Be3bfdPfKp0Hm2VTp1MUXRafh0KF%2BkILN8sgVvHP9HdTctnQWZLQG8hLr%2FY0Ez6Wr%2B8cDSk%2F3ARRH5cwXa%2BHWzrHlAsapTv%2F7bNZCQSDOaI6Q8KyyiiCxkSw%3D%3D HTTP/1.1" 200 642
+[11/Apr/2019 16:06:35] "GET /blog/index/ HTTP/1.1" 200 642
+[11/Apr/2019 16:06:38] "GET /blog/article/12/ HTTP/1.1" 200 342
+[11/Apr/2019 16:06:44] "GET /blog/article/3/ HTTP/1.1" 200 400
+[11/Apr/2019 16:06:46] "GET /blog/article/2/ HTTP/1.1" 200 409
+[11/Apr/2019 16:06:49] "GET /blog/article/3/ HTTP/1.1" 200 400
+[11/Apr/2019 16:08:02] "GET /blog/index/ HTTP/1.1" 200 642
+[11/Apr/2019 16:08:06] "GET /blog/article/2/ HTTP/1.1" 200 409
+[11/Apr/2019 16:08:10] "GET /blog/edit/ HTTP/1.1" 200 552
+[11/Apr/2019 16:08:12] "POST /blog/edit/action/ HTTP/1.1" 200 740
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[11/Apr/2019 16:13:40] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 58390)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/socketserver.py", line 636, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.6/socketserver.py", line 358, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.6/socketserver.py", line 692, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/lib/python3.6/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[11/Apr/2019 16:34:39] "GET /blog/index/?nsukey=VR0v303ClYme%2BoyTd8NeINbcOg23i6Sm17tLC8YdmDZ0olNWQKN7Cl9fzdQwPltBJFPdWq2Wax8WOo79oWKlEnTdBdp2hQSP13J5tXgj8Ms2gWtVEPh3bZfieZ8ntLwB1kVgnmMkIpH%2F4tuzWTtwZXzgHMRarZhlvIBLXBX6iVpONauX%2Bta7HH5YjP3lm3xDIc6YGuLXKn2ZpfdnySSTbg%3D%3D HTTP/1.1" 200 740
+[11/Apr/2019 16:34:43] "GET /blog/article/2/ HTTP/1.1" 200 409
+[11/Apr/2019 16:34:44] "GET /blog/article/2/?nsukey=igk9jZ6wjbKFaaDN93cPlFYGJQKHc6nRzASyh42tdw0J%2B41URGJCbaEyUn0jQktzZALplkBHAgWn2LIXL9BHueDeWNVIOooky5DvJC4nStSUG0YzHgdDO%2FtzHt%2BpIIn5yfTJtF3Pvm17HRXvmeX3I4S3ZchHMM8%2FEdM7F5ILN6aKgcZHllwfBQsZe8%2Ftv9E2MEqVLZ%2FjGtfhFTyrA1Rrug%3D%3D HTTP/1.1" 200 409
+----------------------------------------
+Exception happened during processing of request from ('220.112.121.253', 50200)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/socketserver.py", line 636, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.6/socketserver.py", line 358, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.6/socketserver.py", line 692, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/lib/python3.6/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[11/Apr/2019 16:35:39] "GET /blog/index/?nsukey=VR0v303ClYme%2BoyTd8NeINbcOg23i6Sm17tLC8YdmDZ0olNWQKN7Cl9fzdQwPltBJFPdWq2Wax8WOo79oWKlEnTdBdp2hQSP13J5tXgj8Ms2gWtVEPh3bZfieZ8ntLwB1kVgnmMkIpH%2F4tuzWTtwZXzgHMRarZhlvIBLXBX6iVpONauX%2Bta7HH5YjP3lm3xDIc6YGuLXKn2ZpfdnySSTbg%3D%3D HTTP/1.1" 200 740
+[11/Apr/2019 16:35:44] "GET /blog/article/2/?nsukey=igk9jZ6wjbKFaaDN93cPlFYGJQKHc6nRzASyh42tdw0J%2B41URGJCbaEyUn0jQktzZALplkBHAgWn2LIXL9BHueDeWNVIOooky5DvJC4nStSUG0YzHgdDO%2FtzHt%2BpIIn5yfTJtF3Pvm17HRXvmeX3I4S3ZchHMM8%2FEdM7F5ILN6aKgcZHllwfBQsZe8%2Ftv9E2MEqVLZ%2FjGtfhFTyrA1Rrug%3D%3D HTTP/1.1" 200 409
+[12/Apr/2019 01:57:26] "GET /blog/index/ HTTP/1.1" 200 740
+Not Found: /favicon.ico
+[12/Apr/2019 01:57:27] "GET /favicon.ico HTTP/1.1" 404 2081
+[12/Apr/2019 01:57:47] "GET /blog/edit/delete/15/ HTTP/1.1" 200 642
+[12/Apr/2019 01:57:53] "GET /blog/article/12/ HTTP/1.1" 200 342
+[12/Apr/2019 01:57:56] "GET /blog/index/ HTTP/1.1" 200 642
+[12/Apr/2019 01:57:58] "GET /blog/article/2/ HTTP/1.1" 200 409
+[12/Apr/2019 01:58:09] "GET /blog/edit/ HTTP/1.1" 200 552
+[12/Apr/2019 01:58:10] "POST /blog/edit/action/ HTTP/1.1" 200 740
+[12/Apr/2019 01:58:13] "GET /blog/edit/delete/16/ HTTP/1.1" 200 642
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[12/Apr/2019 02:17:27] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 52678)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/socketserver.py", line 636, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.6/socketserver.py", line 358, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.6/socketserver.py", line 692, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/lib/python3.6/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 11, 2019 - 12:49:57
+Django version 2.1.8, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[12/Apr/2019 02:26:33] "GET /blog/edit/delete/16/ HTTP/1.1" 200 642
+[12/Apr/2019 03:50:27] "GET /blog/index HTTP/1.1" 301 0
+[12/Apr/2019 03:50:27] "GET /blog/index/ HTTP/1.1" 200 642
+Not Found: /favicon.ico
+[12/Apr/2019 03:50:29] "GET /favicon.ico HTTP/1.1" 404 2081
+[12/Apr/2019 03:50:31] "GET /blog/article/3/ HTTP/1.1" 200 400
+Not Found: /favicon.ico
+[12/Apr/2019 03:50:31] "GET /favicon.ico HTTP/1.1" 404 2081
+[12/Apr/2019 03:50:41] "GET /blog/edit/ HTTP/1.1" 200 552
+Not Found: /favicon.ico
+[12/Apr/2019 03:50:41] "GET /favicon.ico HTTP/1.1" 404 2081
