@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd0e216b-fa26-4ee6-ba1b-389e5c430451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/blog/templates/change_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/blog/templates/article_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/article_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/blog/templates/edit_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/edit_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/blog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/templates/article_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/blog/article_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/templates/change_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/blog/change_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/templates/edit_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/blog/edit_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +56,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="738" />
-          <entry key="py" value="1363" />
+          <entry key="py" value="1368" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -68,33 +64,33 @@
         <counts>
           <entry key="HTML" value="738" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="1363" />
+          <entry key="Python" value="1368" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myblog/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="858">
+              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1554975813966" expanded="true" signature="159:164" ph="..." />
-                <marker date="1554975813966" expanded="true" signature="661:1224" ph="..." />
-                <marker date="1554975813966" expanded="true" signature="1249:1520" ph="..." />
+                <marker date="1555035630900" expanded="true" signature="159:164" ph="..." />
+                <marker date="1555035630900" expanded="true" signature="681:1254" ph="..." />
+                <marker date="1555035630900" expanded="true" signature="1279:1555" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myblog/blog/templates/article_page.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myblog/blog/templates/blog/article_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="132">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -157,7 +153,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myblog/blog/templates/edit_page.html">
+        <entry file="file://$PROJECT_DIR$/myblog/blog/templates/blog/edit_page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
               <caret line="14" selection-start-line="14" selection-end-line="15" />
@@ -166,7 +162,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myblog/blog/templates/change_page.html">
+        <entry file="file://$PROJECT_DIR$/myblog/blog/templates/blog/change_page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
@@ -175,7 +171,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myblog/blog/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/myblog/blog/templates/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
@@ -207,9 +203,9 @@
         <option value="$PROJECT_DIR$/myblog/blog/templates/index.html" />
         <option value="$PROJECT_DIR$/myblog/blog/templates/edit_page.html" />
         <option value="$PROJECT_DIR$/myblog/blog/templates/change_page.html" />
-        <option value="$PROJECT_DIR$/myblog/blog/views.py" />
         <option value="$PROJECT_DIR$/myblog/blog/urls.py" />
         <option value="$PROJECT_DIR$/myblog/blog/templates/article_page.html" />
+        <option value="$PROJECT_DIR$/myblog/blog/views.py" />
       </list>
     </option>
   </component>
@@ -221,7 +217,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="248" />
-    <option name="y" value="61" />
+    <option name="y" value="59" />
     <option name="width" value="1400" />
     <option name="height" value="981" />
   </component>
@@ -254,14 +250,19 @@
               <item name="django_demo" type="462c0819:PsiDirectoryNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="django_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="django_demo" type="462c0819:PsiDirectoryNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mooc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,6 +283,7 @@
       <recent name="F:\git\django_demo\myblog\blog\migrations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git\django_demo\myblog\blog\templates\blog" />
       <recent name="F:\git\django_demo\myblog\blog\templates" />
     </key>
   </component>
@@ -340,7 +342,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="248" y="61" width="1400" height="981" extended-state="0" />
+    <frame x="248" y="59" width="1400" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -420,6 +422,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/blog/templates/blog/change_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/blog/templates/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/blog/templates/blog/edit_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/blog/templates/blog/article_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myblog/myblog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -427,40 +457,6 @@
           <folding>
             <element signature="e#630#662#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/blog/templates/change_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/blog/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1554975813966" expanded="true" signature="159:164" ph="..." />
-            <marker date="1554975813966" expanded="true" signature="661:1224" ph="..." />
-            <marker date="1554975813966" expanded="true" signature="1249:1520" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/blog/templates/edit_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -474,10 +470,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/blog/templates/article_page.html">
+    <entry file="file://$PROJECT_DIR$/myblog/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="858">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1555035630900" expanded="true" signature="159:164" ph="..." />
+            <marker date="1555035630900" expanded="true" signature="681:1254" ph="..." />
+            <marker date="1555035630900" expanded="true" signature="1279:1555" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
