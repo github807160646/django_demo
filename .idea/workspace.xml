@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd0e216b-fa26-4ee6-ba1b-389e5c430451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myblog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/mooc/templates/mooc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/mooc/templates/mooc/showing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/mooc/templates/mooc/uploading.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/mooc/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/mooc/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mooc/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/mooc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mooc/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/mooc/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mooc/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/myblog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/myblog/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="dd0e216b-fa26-4ee6-ba1b-389e5c430451" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +31,7 @@
     <session id="-1027035313">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -380,7 +365,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="248" y="59" width="1400" height="981" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
