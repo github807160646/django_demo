@@ -2,6 +2,7 @@ from django.shortcuts import render
 from PIL import Image
 import numpy as np
 from .models import Img
+from . import models
 import  os
 
 
@@ -31,6 +32,21 @@ def showImg(request):
         'imgs':imgs,
     }
     return render(request, 'mooc/showing.html', content)
+
+def delete(request,img_id):
+    picture = models.Img.objects.get(pk = img_id)
+    models.Img.objects.filter(pk=img_id).delete()
+    path = os.path.abspath('.')
+    picture_url = picture.img.url.replace('/', '\\')
+    path2 = path + picture_url
+    os.remove(path2)
+
+    imgs = Img.objects.all()
+    content = {
+        'imgs': imgs,
+    }
+    return render(request,'mooc/showing.html', content)
+
 
 def picture_change(pictureUrl):
     # 为了便于文件的导入，可以使用相对路径，将文件和程序放在同一个文件夹下
