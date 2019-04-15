@@ -682,3 +682,49 @@ Not Found: /favicon.ico
 [15/Apr/2019 02:07:18] "GET /blog/article/17/ HTTP/1.1" 200 263
 [15/Apr/2019 02:07:21] "GET /blog/edit/ HTTP/1.1" 200 552
 [15/Apr/2019 02:13:04] "GET /blog/index/ HTTP/1.1" 200 884
+[15/Apr/2019 02:16:01] "GET /blog/index/ HTTP/1.1" 200 899
+[15/Apr/2019 02:16:05] "GET /blog/article/18/ HTTP/1.1" 200 394
+[15/Apr/2019 02:16:07] "GET /blog/edit/tocha/18/ HTTP/1.1" 200 698
+[15/Apr/2019 02:16:09] "POST /blog/edit/change/18/ HTTP/1.1" 200 899
+[15/Apr/2019 02:16:11] "GET /blog/edit/ HTTP/1.1" 200 552
+[15/Apr/2019 02:18:02] "POST /blog/edit/action/ HTTP/1.1" 200 1027
+[15/Apr/2019 02:18:03] "GET /blog/article/19/ HTTP/1.1" 200 412
+[15/Apr/2019 02:29:59] "GET /blog/article/19/ HTTP/1.1" 200 412
+[15/Apr/2019 02:30:03] "GET /blog/article/19/ HTTP/1.1" 200 412
+[15/Apr/2019 02:30:10] "GET /blog/edit/tocha/19/ HTTP/1.1" 200 716
+Not Found: /
+[15/Apr/2019 03:44:42] "GET / HTTP/1.1" 404 2262
+----------------------------------------
+Exception happened during processing of request from ('198.108.67.48', 34940)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/socketserver.py", line 636, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.6/socketserver.py", line 358, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.6/socketserver.py", line 692, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/lib/python3.6/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[15/Apr/2019 04:29:36] "GET /blog/index/ HTTP/1.1" 200 1027
+Not Found: /favicon.ico
+[15/Apr/2019 04:29:37] "GET /favicon.ico HTTP/1.1" 404 2313
+[15/Apr/2019 04:29:38] "GET /blog/article/12/ HTTP/1.1" 200 342
+Not Found: /favicon.ico
+[15/Apr/2019 04:29:38] "GET /favicon.ico HTTP/1.1" 404 2313
+[15/Apr/2019 04:29:41] "GET /blog/article/17/ HTTP/1.1" 200 263
+[15/Apr/2019 04:29:43] "GET /blog/article/18/ HTTP/1.1" 200 394
+[15/Apr/2019 04:29:44] "GET /blog/article/19/ HTTP/1.1" 200 412
+[15/Apr/2019 05:56:49] "POST /blog/edit/action/ HTTP/1.1" 200 1155
+[15/Apr/2019 05:56:53] "GET /blog/article/20/ HTTP/1.1" 200 412
+[15/Apr/2019 05:56:58] "GET /blog/index/ HTTP/1.1" 200 1155
+[15/Apr/2019 05:57:06] "GET /blog/index/ HTTP/1.1" 200 1155
+[15/Apr/2019 05:57:09] "GET /blog/article/19/ HTTP/1.1" 200 412
+[15/Apr/2019 05:57:11] "GET /blog/index/ HTTP/1.1" 200 1155
+[15/Apr/2019 05:57:14] "GET /blog/article/18/ HTTP/1.1" 200 394
+[15/Apr/2019 06:53:53] "GET /blog/index/ HTTP/1.1" 200 1155
