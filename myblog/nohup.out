@@ -931,3 +931,10 @@ Not Found: /index/
 [15/Apr/2019 09:19:48] "GET /mooc/show/ HTTP/1.1" 200 160
 [15/Apr/2019 09:19:49] "GET /mooc/show/ HTTP/1.1" 200 160
 [15/Apr/2019 09:19:49] "GET /mooc/show/ HTTP/1.1" 200 160
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 15, 2019 - 08:47:27
+Django version 2.1.8, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
