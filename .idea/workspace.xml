@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="dd0e216b-fa26-4ee6-ba1b-389e5c430451" name="Default Changelist" comment="" />
+=======
+<<<<<<< HEAD
+    <list default="true" id="dd0e216b-fa26-4ee6-ba1b-389e5c430451" name="Default Changelist" comment="Default Changelist" />
+=======
+    <list default="true" id="dd0e216b-fa26-4ee6-ba1b-389e5c430451" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myblog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/mooc/templates/mooc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/mooc/templates/mooc/showing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/mooc/templates/mooc/uploading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/mooc/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/mooc/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mooc/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/mooc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mooc/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/mooc/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/mooc/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/myblog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/myblog/urls.py" afterDir="false" />
+    </list>
+>>>>>>> bf11a7d3878d8f8eff798e0258f831134c8413f2
+>>>>>>> c0d2be397b09da5c9ed7171e9cdde58523254ad9
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +195,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myblog/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="45">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+=======
             <state relative-caret-position="990">
               <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
@@ -178,6 +206,7 @@
                 <marker date="1555056911289" expanded="true" signature="123:128" ph="..." />
                 <marker date="1555056911289" expanded="true" signature="649:1220" ph="..." />
               </folding>
+>>>>>>> bf11a7d3878d8f8eff798e0258f831134c8413f2
             </state>
           </provider>
         </entry>
@@ -569,8 +598,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myblog/blog/templates/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+=======
         <state relative-caret-position="418">
           <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+>>>>>>> bf11a7d3878d8f8eff798e0258f831134c8413f2
         </state>
       </provider>
     </entry>
