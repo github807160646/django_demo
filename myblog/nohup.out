@@ -938,3 +938,46 @@ April 15, 2019 - 08:47:27
 Django version 2.1.8, using settings 'myblog.settings'
 Starting development server at http://0.0.0.0:8000/
 Quit the server with CONTROL-C.
+[15/Apr/2019 09:33:18] "GET /blog/index/ HTTP/1.1" 200 1254
+[15/Apr/2019 09:33:20] "GET /mooc/upload/ HTTP/1.1" 200 569
+[15/Apr/2019 09:33:21] "GET /mooc/show/ HTTP/1.1" 200 211
+[15/Apr/2019 09:33:22] "GET /media/img/aa.jpg HTTP/1.1" 304 0
+[15/Apr/2019 09:33:24] "GET /mooc/delete/5/ HTTP/1.1" 200 123
+Internal Server Error: /mooc/delete/5/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/myblog/mooc/views.py", line 37, in delete
+    picture = models.Img.objects.get(pk = img_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+mooc.models.Img.DoesNotExist: Img matching query does not exist.
+[15/Apr/2019 09:33:25] "GET /mooc/delete/5/ HTTP/1.1" 500 71656
+[15/Apr/2019 09:33:28] "GET /mooc/show/ HTTP/1.1" 200 123
+[15/Apr/2019 09:34:12] "POST /mooc/upload/ HTTP/1.1" 200 569
+[15/Apr/2019 09:34:14] "GET /mooc/show/ HTTP/1.1" 200 211
+[15/Apr/2019 09:34:41] "GET /mooc/delete/6/ HTTP/1.1" 200 123
+[15/Apr/2019 09:34:48] "GET /blog/article/21/ HTTP/1.1" 200 374
+[15/Apr/2019 09:34:50] "GET /blog/edit/tocha/21/ HTTP/1.1" 200 678
+[15/Apr/2019 09:35:37] "POST /blog/edit/change/21/ HTTP/1.1" 200 1254
+[15/Apr/2019 09:35:40] "GET /blog/article/21/ HTTP/1.1" 200 411
+[15/Apr/2019 09:35:44] "GET /blog/index/ HTTP/1.1" 200 1254
+[15/Apr/2019 09:40:07] "GET /mooc/upload/ HTTP/1.1" 200 569
+[15/Apr/2019 09:40:21] "POST /mooc/upload/ HTTP/1.1" 200 569
+[15/Apr/2019 09:40:22] "GET /mooc/show/ HTTP/1.1" 200 211
+[15/Apr/2019 09:40:22] "GET /media/img/aa.jpg HTTP/1.1" 200 281366
+/usr/local/lib/python3.7/site-packages/PIL/Image.py:965: UserWarning: Palette images with Transparency   expressed in bytes should be converted to RGBA images
+  ' expressed in bytes should be converted ' +
+[15/Apr/2019 09:40:39] "POST /mooc/upload/ HTTP/1.1" 200 569
+[15/Apr/2019 09:40:41] "GET /mooc/show/ HTTP/1.1" 200 309
+[15/Apr/2019 09:40:41] "GET /media/img/aa.jpg HTTP/1.1" 304 0
+[15/Apr/2019 09:40:41] "GET /media/img/PYG03-flower.png HTTP/1.1" 200 5069
+[15/Apr/2019 09:40:45] "GET /mooc/delete/8/ HTTP/1.1" 200 211
+[15/Apr/2019 09:40:45] "GET /media/img/aa.jpg HTTP/1.1" 304 0
+[15/Apr/2019 09:41:17] "GET /mooc/delete/7/ HTTP/1.1" 200 123

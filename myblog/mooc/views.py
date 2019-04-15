@@ -37,7 +37,7 @@ def delete(request,img_id):
     picture = models.Img.objects.get(pk = img_id)
     models.Img.objects.filter(pk=img_id).delete()
     path = os.path.abspath('.')
-    picture_url = picture.img.url.replace('/', '\\')
+    picture_url = picture.img.url
     path2 = path + picture_url
     os.remove(path2)
 
