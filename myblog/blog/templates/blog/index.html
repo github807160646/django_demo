@@ -9,7 +9,7 @@
 <span>--------------------------------------</span>
 <br>
 {% for article in articles %}
-    <h2><a href="{% url 'blog:article_page' article.id %}">{{article.title}}</a>
+    <h2><a href="{% url 'blog:article_page' article.id %}">{{article.title}}</a></h2>
         <!--<a href="{% url 'blog:edit_delete' article.id %}">删除</a></h2>-->
 {% endfor %}<br>
 <span>--------------------------------------</span>
