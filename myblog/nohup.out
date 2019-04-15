@@ -728,3 +728,29 @@ Not Found: /favicon.ico
 [15/Apr/2019 05:57:11] "GET /blog/index/ HTTP/1.1" 200 1155
 [15/Apr/2019 05:57:14] "GET /blog/article/18/ HTTP/1.1" 200 394
 [15/Apr/2019 06:53:53] "GET /blog/index/ HTTP/1.1" 200 1155
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f343052e488>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/utils/autoreload.py", line 225, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.6/site-packages/django/core/management/base.py", line 425, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+mooc.Img.img: (fields.E210) Cannot use ImageField because Pillow is not installed.
+	HINT: Get Pillow at https://pypi.org/project/Pillow/ or run command "pip install Pillow".
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 12, 2019 - 13:41:17
+Django version 2.1.8, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+<class 'mooc.models.Img'>
+/media/img/aa_VmTs3QE.jpg
