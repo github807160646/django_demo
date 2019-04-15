@@ -5,6 +5,9 @@
     <title>Title</title>
 </head>
 <body>
+<h1><a href="{% url 'blog:index' %}">返回列表</a></h1>
+<span>-----------------------------------------------</span>
+<br>
 {% for img in imgs %}
 <img src="{{ img.img.url }}" /><br>
 <h1><a href="{% url 'mooc:delete' img.id %}">删除</a></h1>
