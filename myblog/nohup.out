@@ -2361,3 +2361,10 @@ Not Found: /favicon.ico
 [23/Apr/2019 02:26:44] "GET /blog/index/ HTTP/1.1" 200 1254
 Not Found: /favicon.ico
 [23/Apr/2019 02:26:44] "GET /favicon.ico HTTP/1.1" 404 2312
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 15, 2019 - 09:33:01
+Django version 2.1.8, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
