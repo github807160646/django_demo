@@ -3,12 +3,10 @@ from PIL import Image
 import numpy as np
 from .models import Img
 from . import models
-<<<<<<< HEAD
 import  os
 from datetime import datetime
-=======
-import os
->>>>>>> a309d63b69ef4fa206e76da0d9294779b9560aa4
+
+
 
 
 # Create your views here.
