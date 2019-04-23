@@ -18,14 +18,20 @@
 <div class="container body-main">
 
     <div>
-        {%  for section in section_list %}
+        {% for section in section_list %}
         <p>{{section}}</p>
         {% endfor %}
 
     </div>
 
-
 </div>
-
+<div>
+    <nav aria-label="...">
+        <ul class="pager">
+            <li><a href="#">上一篇：xxx</a></li>
+            <li><a href="#">下一篇：xxx</a></li>
+        </ul>
+    </nav>
+</div>
 </body>
 </html>

@@ -20,7 +20,7 @@ def uploadImg(request):
         new_img = Img(img=img, name=name)
         new_img.save()
         path = os.path.abspath('.')
-        picture_url = new_img.img.url.replace('/', '\\')
+        picture_url = new_img.img.url
         path2 = path + picture_url
         picture_change(path2)
     return render(request, 'mooc/uploading.html')
@@ -38,7 +38,7 @@ def delete(request, img_id):
     picture = models.Img.objects.get(pk=img_id)
     models.Img.objects.filter(pk=img_id).delete()
     path = os.path.abspath('.')
-    picture_url = picture.img.url.replace('/', '\\')
+    picture_url = picture.img.url
     path2 = path + picture_url
     os.remove(path2)
 
