@@ -10,7 +10,8 @@ def index(request):
 
 def article_page(request, article_id):
     article = models.Article.objects.get(pk=article_id)
-    return render(request, 'blog/article_page.html', {'article': article})
+    sections = article.content.split('\n')
+    return render(request, 'blog/article_page.html', {'article': article,'sections':sections})
 
 
 def to_change(request, article_id):

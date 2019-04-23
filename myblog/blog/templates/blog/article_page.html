@@ -7,7 +7,9 @@
 <body>
 <h1>{{article.title}}</h1>
 <br>
-<h3>{{article.content}}</h3>
+{% for section in sections %}
+<h3>{{section}}</h3>
+{% endfor %}
 <br><br>
 <a href="{% url 'blog:to_change'  article.id %}">修改文章</a>
 <a href="{% url 'blog:index' %}">返回列表</a>
