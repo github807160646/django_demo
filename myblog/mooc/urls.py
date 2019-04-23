@@ -7,6 +7,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('index/', views.index, name='index'),
+    path('hello/',views.hello,name = 'hello'),
+    path('msggate/',views.msgproc, name = 'msggate'),
     path('upload/',views.uploadImg, name = 'upload'),
     path('show/',views.showImg, name='show'),
     path('delete/<int:img_id>/', views.delete, name = 'delete'),

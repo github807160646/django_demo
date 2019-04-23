@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script>
+        function displayDate() {
+            document.getElementById("time").innerHTML=Date();
+        }
+    </script>
 </head>
 <body>
-
+hello world
+<p id ="time">这里将显示时间</p>
+<button type="button" onclick="displayDate() ">点击</button>
 </body>
 </html>

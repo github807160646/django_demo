@@ -4,12 +4,42 @@ import numpy as np
 from .models import Img
 from . import models
 import  os
+from datetime import datetime
 
 
 # Create your views here.
 
 def index(request):
     return render(request, 'mooc/index.html')
+
+def hello(request):
+    return  render(request,'mooc/hello.html')
+
+def msgproc(request):
+    datalist = []
+    if request.method == "POST":
+        usera = request.POST.get("usera", None)
+        userb = request.POST.get("userb", None)
+        msg = request.POST.get("msg", None)
+        time = datetime.now()
+        with open('msgdata.txt', 'a+') as f:
+            f.write("{}--{}--{}--{}--\n".format(userb, usera, \
+                                                msg, time.strftime("%Y-%m-%d %H:%M:%S")))
+    if request.method == "GET":
+        userc = request.GET.get("userc", None)
+        if userc != None:
+            with open("msgdata.txt", "r") as f:
+                cnt = 0
+                for line in f:
+                    linedata = line.split('--')
+                    if linedata[0] == userc:
+                        cnt = cnt + 1
+                        d = {"usera": linedata[1], "msg": linedata[2] \
+                            , "time": linedata[3]}
+                        datalist.append(d)
+                    if cnt >= 10:
+                        break
+    return  render(request, "mooc/MsgSingleWeb.html",{"data":datalist})
 
 
 def uploadImg(request):
@@ -20,7 +50,7 @@ def uploadImg(request):
         new_img = Img(img=img, name=name)
         new_img.save()
         path = os.path.abspath('.')
-        picture_url = new_img.img.url.replace('/', '\\')
+        picture_url = new_img.img.url
         path2 = path + picture_url
         picture_change(path2)
     return render(request, 'mooc/uploading.html')
@@ -37,7 +67,7 @@ def delete(request,img_id):
     picture = models.Img.objects.get(pk = img_id)
     models.Img.objects.filter(pk=img_id).delete()
     path = os.path.abspath('.')
-    picture_url = picture.img.url.replace('/', '\\')
+    picture_url = picture.img.url
     path2 = path + picture_url
     os.remove(path2)
 
