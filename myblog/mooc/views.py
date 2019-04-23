@@ -3,8 +3,12 @@ from PIL import Image
 import numpy as np
 from .models import Img
 from . import models
+<<<<<<< HEAD
 import  os
 from datetime import datetime
+=======
+import os
+>>>>>>> a309d63b69ef4fa206e76da0d9294779b9560aa4
 
 
 # Create your views here.
@@ -44,7 +48,7 @@ def msgproc(request):
 
 def uploadImg(request):
     if request.method == 'POST':
-        #print(type(request.FILES.get('img')))
+        # print(type(request.FILES.get('img')))
         img = request.FILES.get('img')
         name = request.FILES.get('img').name
         new_img = Img(img=img, name=name)
@@ -55,16 +59,17 @@ def uploadImg(request):
         picture_change(path2)
     return render(request, 'mooc/uploading.html')
 
-def showImg(request):
 
+def showImg(request):
     imgs = Img.objects.all()
     content = {
-        'imgs':imgs,
+        'imgs': imgs,
     }
     return render(request, 'mooc/showing.html', content)
 
-def delete(request,img_id):
-    picture = models.Img.objects.get(pk = img_id)
+
+def delete(request, img_id):
+    picture = models.Img.objects.get(pk=img_id)
     models.Img.objects.filter(pk=img_id).delete()
     path = os.path.abspath('.')
     picture_url = picture.img.url
@@ -75,7 +80,7 @@ def delete(request,img_id):
     content = {
         'imgs': imgs,
     }
-    return render(request,'mooc/showing.html', content)
+    return render(request, 'mooc/showing.html', content)
 
 
 def picture_change(pictureUrl):
