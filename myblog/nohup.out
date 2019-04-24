@@ -2428,3 +2428,208 @@ Traceback (most recent call last):
     return Database.Cursor.execute(self, query, params)
 django.db.utils.OperationalError: no such table: newblog_essay
 [23/Apr/2019 07:32:34] "GET /newblog/essay/ HTTP/1.1" 500 163049
+Internal Server Error: /newblog/essay/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: newblog_essay
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/django/myblog/newblog/views.py", line 20, in get_index_page
+    return render(request, 'newblog/index.html', {'essays': essays})
+  File "/usr/local/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/defaulttags.py", line 166, in render
+    len_values = len(values)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: newblog_essay
+[23/Apr/2019 07:39:12] "GET /newblog/essay/ HTTP/1.1" 500 163184
+[23/Apr/2019 07:39:24] "GET /newblog/index/ HTTP/1.1" 200 19
+[23/Apr/2019 07:39:34] "GET /admin HTTP/1.1" 301 0
+[23/Apr/2019 07:39:34] "GET /admin/ HTTP/1.1" 200 7652
+[23/Apr/2019 07:39:34] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[23/Apr/2019 07:39:35] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[23/Apr/2019 07:39:35] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+[23/Apr/2019 07:39:35] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[23/Apr/2019 07:39:35] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[23/Apr/2019 07:39:35] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[23/Apr/2019 07:39:35] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[23/Apr/2019 07:39:35] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[23/Apr/2019 07:39:35] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[23/Apr/2019 07:39:35] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+Internal Server Error: /admin/newblog/essay/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: newblog_essay
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/options.py", line 604, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1675, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/options.py", line 742, in get_changelist_instance
+    sortable_by,
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/views/main.py", line 81, in __init__
+    self.get_results(request)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/views/main.py", line 209, in get_results
+    result_count = paginator.count
+  File "/usr/local/lib/python3.7/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.7/site-packages/django/core/paginator.py", line 87, in count
+    return self.object_list.count()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 383, in count
+    return self.query.get_count(using=self.db)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 498, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 483, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: newblog_essay
+[23/Apr/2019 07:39:37] "GET /admin/newblog/essay/ HTTP/1.1" 500 174095
+[23/Apr/2019 07:44:09] "GET /admin/newblog/essay/ HTTP/1.1" 200 3166
+[23/Apr/2019 07:44:09] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[23/Apr/2019 07:44:09] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[23/Apr/2019 07:44:10] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[23/Apr/2019 07:44:10] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[23/Apr/2019 07:44:10] "GET /static/admin/js/core.js HTTP/1.1" 200 7135
+[23/Apr/2019 07:44:10] "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+[23/Apr/2019 07:44:10] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+[23/Apr/2019 07:44:10] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[23/Apr/2019 07:44:10] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[23/Apr/2019 07:44:10] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[23/Apr/2019 07:44:10] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[23/Apr/2019 07:44:16] "GET /admin/ HTTP/1.1" 200 7652
+[23/Apr/2019 07:44:19] "GET /admin/newblog/essay/ HTTP/1.1" 200 3166
+[23/Apr/2019 07:44:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[23/Apr/2019 07:44:30] "GET /admin/ HTTP/1.1" 200 7652
+[23/Apr/2019 07:44:38] "GET /newblog/index/ HTTP/1.1" 200 19
+[23/Apr/2019 07:44:44] "GET /newblog/essay/ HTTP/1.1" 200 1061
+[23/Apr/2019 07:45:01] "GET /admin/ HTTP/1.1" 200 7652
+[23/Apr/2019 07:45:04] "GET /admin/newblog/essay/ HTTP/1.1" 200 3166
+[23/Apr/2019 07:45:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[23/Apr/2019 07:45:06] "GET /admin/newblog/essay/add/ HTTP/1.1" 200 5014
+[23/Apr/2019 07:45:06] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[23/Apr/2019 07:45:06] "GET /static/admin/css/forms.css HTTP/1.1" 200 8505
+[23/Apr/2019 07:45:06] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[23/Apr/2019 07:45:06] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[23/Apr/2019 07:45:06] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[23/Apr/2019 07:46:14] "POST /admin/newblog/essay/add/ HTTP/1.1" 302 0
+[23/Apr/2019 07:46:14] "GET /admin/newblog/essay/ HTTP/1.1" 200 4510
+[23/Apr/2019 07:46:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[23/Apr/2019 07:46:14] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[23/Apr/2019 07:46:27] "GET /newblog/essay/ HTTP/1.1" 200 1263
+[23/Apr/2019 07:46:29] "GET /newblog/detail/1/ HTTP/1.1" 200 2957
+[23/Apr/2019 07:46:37] "GET /newblog/detail/1/ HTTP/1.1" 200 2957
+[23/Apr/2019 08:22:23] "GET /admin/newblog/essay/ HTTP/1.1" 200 4328
+Not Found: /robots.txt
+[23/Apr/2019 14:42:17] "GET /robots.txt HTTP/1.1" 404 2417
+[23/Apr/2019 14:42:17] "GET /blog/edit/tocha/21/ HTTP/1.1" 200 715
+[23/Apr/2019 14:43:14] "GET /blog/article/12/ HTTP/1.1" 200 344
+[23/Apr/2019 14:44:22] "GET /blog/article/17/ HTTP/1.1" 200 265
+[23/Apr/2019 14:45:21] "GET /blog/article/20/ HTTP/1.1" 200 424
+[23/Apr/2019 14:45:39] "GET /blog/edit/tocha/20/ HTTP/1.1" 200 716
+[23/Apr/2019 14:46:03] "GET /blog/edit/tocha/18/ HTTP/1.1" 200 698
+[23/Apr/2019 14:46:57] "GET /blog/edit/tocha/12/ HTTP/1.1" 200 646
+[23/Apr/2019 20:01:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Apr/2019 20:01:57] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[23/Apr/2019 21:00:27] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 54897)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/local/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[24/Apr/2019 01:22:08] "GET / HTTP/1.1" 404 2368
+[24/Apr/2019 02:27:13] "GET /blog/edit/tocha/17/ HTTP/1.1" 200 567
