@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云端留言板</title>
+</head>
+<body>
+    <h1>提交留言功能</h1>
+    <form action="/mooc/msggate/" method="post">
+        {% csrf_token %}
+        发送方 <input type="text" name = "usera"> <br>
+        接收方 <input type="text" name = "userb"> <br>
+        消息文 <input type="text" name = "msg"> <br>
+        <input type="submit" value="提交"> <br>
+    </form>
+
+    <h1>获取留言功能</h1>
+    <form action="/mooc/msggate/" method="get">
+        接收方 <input type="text" name = "userc"> <br>
+        <input type="submit" value="留言获取">
+    </form>
+
+    <table border="1">
+        <thead>
+            <th>留言时间</th>
+            <th>留言来源</th>
+            <th>留言信息</th>
+        </thead>
+        <br>
+        <tbody>
+            {% for line in  data%}
+            <tr>
+                <td>{{ line.time }}</td>
+                <td align = "center">{{ line.usera }}</td>
+                <td>{{ line.msg }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+
+    </table>
+
+</body>
+</html>

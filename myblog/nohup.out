@@ -2633,3 +2633,10 @@ ConnectionResetError: [Errno 104] Connection reset by peer
 Not Found: /
 [24/Apr/2019 01:22:08] "GET / HTTP/1.1" 404 2368
 [24/Apr/2019 02:27:13] "GET /blog/edit/tocha/17/ HTTP/1.1" 200 567
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 23, 2019 - 07:43:53
+Django version 2.1.8, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.

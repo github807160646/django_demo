@@ -12,20 +12,27 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="container page-header">
-    <h1>{{essay.title}}</h1>
-</div>
-<div class="container body-main">
 
-    <div>
-        {%  for section in section_list %}
-        <p>{{section}}</p>
-        {% endfor %}
+    <div class="container page-header">
+        <h1>{{essay.title}}</h1>
+    </div>
+    <div class="container body-main">
+
+        <div>
+            {% for section in section_list %}
+            <p>{{section}}</p>
+            {% endfor %}
+
+        </div>
 
     </div>
-
-
+<div>
+    <nav aria-label="...">
+        <ul class="pager">
+            <li><a href="/newblog/detail/{{previous_essay.essay_id}}/">上一篇：{{previous_essay.title}}</a></li>
+            <li><a href="/newblog/detail/{{next_essay.essay_id}}/">下一篇：{{next_essay.title}}</a></li>
+        </ul>
+    </nav>
 </div>
-
 </body>
 </html>
