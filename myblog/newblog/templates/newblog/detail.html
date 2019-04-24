@@ -12,19 +12,20 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="container page-header">
-    <h1>{{essay.title}}</h1>
-</div>
-<div class="container body-main">
 
-    <div>
-        {% for section in section_list %}
-        <p>{{section}}</p>
-        {% endfor %}
+    <div class="container page-header">
+        <h1>{{essay.title}}</h1>
+    </div>
+    <div class="container body-main">
+
+        <div>
+            {% for section in section_list %}
+            <p>{{section}}</p>
+            {% endfor %}
+
+        </div>
 
     </div>
-
-</div>
 <div>
     <nav aria-label="...">
         <ul class="pager">
