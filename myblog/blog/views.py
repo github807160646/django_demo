@@ -2,6 +2,12 @@ from django.shortcuts import render
 
 from . import models
 
+def first_page(request):
+    return  render(request,'blog/first_page.html')
+
+def machine(request):
+    return render(request, 'blog/machine_learn.html')
+
 
 def index(request):
     articles = models.Article.objects.all()
@@ -11,7 +17,7 @@ def index(request):
 def article_page(request, article_id):
     article = models.Article.objects.get(pk=article_id)
     sections = article.content.split('\n')
-    return render(request, 'blog/article_page.html', {'article': article,'sections':sections})
+    return render(request, 'blog/article_page.html', {'article': article, 'sections': sections})
 
 
 def to_change(request, article_id):
