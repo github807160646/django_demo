@@ -9,4 +9,7 @@ urlpatterns = [
     path('edit/delete/<int:article_id>/',views.edit_delete,name = 'edit_delete'),
     path('edit/change/<int:article_id>/',views.edit_change,name = 'edit_change'),
     path('edit/tocha/<int:article_id>/',views.to_change,name = 'to_change'),
+    path('machine/',views.machine,name = 'machine'),
+    path('xiaohang/',views.first_page, name = 'first_page')
+
 ]
