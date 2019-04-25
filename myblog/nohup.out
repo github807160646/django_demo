@@ -2959,3 +2959,45 @@ ConnectionResetError: [Errno 104] Connection reset by peer
 [25/Apr/2019 07:45:43] "GET /newblog/essay/ HTTP/1.1" 200 2919
 [25/Apr/2019 07:48:00] "GET /blog/index/ HTTP/1.1" 200 1331
 [25/Apr/2019 08:29:25] "GET /blog/index/ HTTP/1.1" 200 1331
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 24, 2019 - 03:30:45
+Django version 2.1.8, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+page_num 1
+page_num 1
+page_num 1
+page_num 1
+page_num 2
+page_num 2
+page_num 1
+page_num 1
+page_num 1
+page_num 1
+page_num 1
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
+page_num 2
