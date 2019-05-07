@@ -3,8 +3,10 @@ from PIL import Image
 import numpy as np
 from .models import Img
 from . import models
-import  os
+import  os,sys
 from datetime import datetime
+sys.path.append("..")
+from newblog import models as md
 
 
 
@@ -12,7 +14,8 @@ from datetime import datetime
 # Create your views here.
 
 def index(request):
-    return render(request, 'mooc/index.html')
+    post_list = md.Essay.objects.all()
+    return render(request, 'mooc/index.html', {'post_list': post_list})
 
 def hello(request):
     return  render(request,'mooc/hello.html')
