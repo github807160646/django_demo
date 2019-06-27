@@ -106,3 +106,18 @@ def picture_change(pictureUrl):
     a2 = a2.clip(0, 255)
     im2 = Image.fromarray(a2.astype('uint8'))
     im2.save(pictureUrl)
+
+#html test
+def html1(request):
+    return  render(request,'mooc/html1.html')
+
+def html2(request):
+    return  render(request,'mooc/html2.html')
+
+def html3(request):
+    return  render(request,'mooc/html3.html')
+
+def html5(request):
+    jpg = Image.open("mooc/templates/mooc/img/flower.jpg").convert('L')
+    print(jpg)
+    return  render(request,'mooc/html5.html',{"jpg":jpg})

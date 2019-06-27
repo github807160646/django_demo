@@ -12,6 +12,9 @@ urlpatterns = [
     path('upload/',views.uploadImg, name = 'upload'),
     path('show/',views.showImg, name='show'),
     path('delete/<int:img_id>/', views.delete, name = 'delete'),
-
-
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    path('html1/',views.html1,name = 'hetml1'),
+    path('html2/',views.html2,name = 'hetml2'),
+    path('html3/',views.html3,name = 'hetml3'),
+    path('html5/',views.html5,name = 'hetml5'),
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\
+              + static(settings.IMG_URL, document_root=settings.IMG_ROOT)

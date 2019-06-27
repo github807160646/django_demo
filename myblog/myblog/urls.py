@@ -25,4 +25,5 @@ urlpatterns = [
     path('blog/',include(('blog.urls','blog'),namespace='blog')),
     path('mooc/',include(('mooc.urls','mooc'),namespace='mooc')),
     path('newblog/',include(('newblog.urls','newblog'),namespace='newblog'))
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\
+              + static(settings.IMG_URL, document_root=settings.IMG_ROOT)

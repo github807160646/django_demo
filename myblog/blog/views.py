@@ -8,6 +8,8 @@ def first_page(request):
 def machine(request):
     return render(request, 'blog/machine_learn.html')
 
+def cssdemo1(request):
+    return  render(request , 'blog/css_demo1.html')
 
 def index(request):
     articles = models.Article.objects.all()

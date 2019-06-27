@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>精灵球</title>
+	<style type="text/css">
+		.draw{
+			margin: 0 auto;
+			width: 0;
+			height: 0;
+			color: black;
+			border-bottom: 100px solid  white ;
+			border-top: 0 solid white;
+			border-left: 100px solid red;
+			border-right: 0 solid white;
+		}
+		.outer{
+			border:2px solid black;
+			width: 100px;
+			height: 100px;
+			margin: 0 auto;
+			border-radius: 50px;
+			overflow: hidden;
+			position: relative;
+		}
+		.center{
+			border:2px solid black;
+			width: 20px;
+			height: 20px;
+			margin: 0 auto;
+			border-radius: 10px;
+			position: absolute ;
+			left: 40px;
+			top: 40px;
+			background: white;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="outer">
+		<div class="draw"></div>
+		<div class="center"></div>
+	</div>
+</body>
+</html>
