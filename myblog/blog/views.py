@@ -11,6 +11,9 @@ def machine(request):
 def cssdemo1(request):
     return  render(request , 'blog/css_demo1.html')
 
+def cssdemo2(request):
+    return  render(request,"blog/weather.html")
+
 def index(request):
     articles = models.Article.objects.all()
     return render(request, 'blog/index.html', {'articles': articles})
