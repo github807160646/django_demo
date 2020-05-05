@@ -16,5 +16,7 @@ urlpatterns = [
     path('html2/',views.html2,name = 'hetml2'),
     path('html3/',views.html3,name = 'hetml3'),
     path('html5/',views.html5,name = 'hetml5'),
+    path('html6/',views.html6,name = 'hetml6'),
+    path('html7/',views.html7,name = 'html7'),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\
               + static(settings.IMG_URL, document_root=settings.IMG_ROOT)

@@ -118,6 +118,10 @@ def html3(request):
     return  render(request,'mooc/html3.html')
 
 def html5(request):
-    jpg = Image.open("mooc/templates/mooc/img/flower.jpg").convert('L')
-    print(jpg)
-    return  render(request,'mooc/html5.html',{"jpg":jpg})
+    return  render(request,'mooc/html5.html')
+
+def html6(request):
+    return  render(request,'mooc/html6.html')
+
+def html7(request):
+    return  render(request,'mooc/html7.html')

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>太极</title>
+	<style type="text/css">
+		div{
+
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			text-align: center;
+		}
+		.outer{
+			margin-top:100px;
+			display: inline-block;
+			width: 400px;
+			height: 400px;
+			transition: all 1s;
+
+		}
+		.lf{
+			border-left:  1px solid black;
+			float: left;
+			border-radius: 400px 0 0 400px;
+			width: 199px;
+			height: 400px;
+			background-color: black;
+			position: relative;
+		}
+		.ri{
+			border-right:  1px solid black;
+			border-radius: 0 400px 400px 0;
+			float: left;
+			width: 199px;
+			height: 400px;
+			background-color: #FFF;
+			position: relative;
+		}
+		.top{
+			width: 100px;
+			height: 200px;
+			background-color: #FFF;
+			position: absolute;
+			top: 0;
+			right: 0;
+			border-radius: 200px 0 0 200px;
+		}
+		.btm{
+			width: 100px;
+			height: 200px;
+			background-color: black;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			border-radius: 0 200px 200px 0;
+		}
+		.to-in{
+			width: 40px;
+			height: 40px;
+			background-color: black;
+			position: absolute;
+			right: 0;
+			top: 80px;
+			margin-right: -20px;
+			visibility:visible;
+			z-index: 4;
+			border-radius: 40px;
+		}
+		.bt-in{
+			width: 40px;
+			height: 40px;
+			background-color: white;
+			position: absolute;
+			left: 0;
+			top: 80px;
+			margin-left: -20px;
+			visibility:visible;
+			z-index: 4;
+			border-radius: 40px;
+		}
+		.outer:hover{
+			transform:rotate(-360deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="outer">
+		<div class="lf">
+			<div class="top">
+				<div class="to-in"></div>
+			</div>
+		</div>
+		<div class="ri">
+			<div class="btm">
+				<div class="bt-in"></div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>精灵球</title>
 	<style type="text/css">
 		.draw{
@@ -33,10 +34,21 @@
 			top: 40px;
 			background: white;
 		}
+		@keyframes change {
+			0%{ color:red; }25%{color:yellow;}50%{color:blue;}75%{color:green;}100%{color:purple;}
+		}
+
+
+		.main{
+			margin: 20px auto; text-align: center;font-size: 40px ;
+			animation:change 5s infinite;
+			-webkit-animation:change 5s infinite;
+		}
 
 	</style>
 </head>
 <body>
+	<div class = "main">纯css3实现精灵球图片</div>
 	<div class="outer">
 		<div class="draw"></div>
 		<div class="center"></div>

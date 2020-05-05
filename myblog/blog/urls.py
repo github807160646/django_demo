@@ -14,6 +14,10 @@ urlpatterns = [
     path('machine/',views.machine,name = 'machine'),
     path('xiaohang/',views.first_page, name = 'first_page'),
     path('jinglingqiu/',views.cssdemo1,name = 'jinglingqiu'),
+<<<<<<< HEAD
     path('thetime/',views.thetime,name = 'thetime'),
+=======
+    path('weather/',views.cssdemo2,name = 'weather'),
+>>>>>>> cb421e7f54e748af320cb9cb0c0c4b71dbd75f88
 
 ]
