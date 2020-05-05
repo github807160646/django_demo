@@ -16,7 +16,7 @@ def thetime(request):
     return  render(request, 'blog/thetime/index.html')
 
 def game_2048(request):
-    return render(request, 'blog/2048/index.html')
+    return render(request, 'blog/game_2048/index.html')
 
 def cssdemo2(request):
     return  render(request,"blog/weather.html")
