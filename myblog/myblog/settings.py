@@ -130,7 +130,7 @@ STATIC_URL = '/static/'
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-HERE = os.path.join(HERE, '.')
+HERE = os.path.join(HERE, '../')
 
 STATICFILES_DIRS = (
 
