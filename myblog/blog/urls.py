@@ -15,6 +15,7 @@ urlpatterns = [
     path('xiaohang/',views.first_page, name = 'first_page'),
     path('jinglingqiu/',views.cssdemo1,name = 'jinglingqiu'),
     path('thetime/',views.thetime,name = 'thetime'),
+    path('game_2048/',views.game_2048,name = 'game_2048'),
     path('weather/',views.cssdemo2,name = 'weather'),
 
 ]
