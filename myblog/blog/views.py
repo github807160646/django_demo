@@ -11,6 +11,10 @@ def machine(request):
 def cssdemo1(request):
     return  render(request , 'blog/css_demo1.html')
 
+def thetime(request):
+    return  render(request, 'blog/thetime/index.html')
+
+
 def index(request):
     articles = models.Article.objects.all()
     return render(request, 'blog/index.html', {'articles': articles})

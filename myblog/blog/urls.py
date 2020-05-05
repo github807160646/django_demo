@@ -1,5 +1,7 @@
 from django.urls import path
 from . import  views
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('index/',views.index,name = 'index'),
@@ -12,5 +14,6 @@ urlpatterns = [
     path('machine/',views.machine,name = 'machine'),
     path('xiaohang/',views.first_page, name = 'first_page'),
     path('jinglingqiu/',views.cssdemo1,name = 'jinglingqiu'),
+    path('thetime/',views.thetime,name = 'thetime'),
 
 ]
